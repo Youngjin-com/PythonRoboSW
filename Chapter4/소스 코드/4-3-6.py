@@ -1,0 +1,10 @@
+from roboid import *
+
+hamster = Hamster()
+hamster.tempo(120)
+hamster.note("C4", 0.5)
+hamster.note("D4", 0.5)
+hamster.note("E4", 0.5)
+for i in range(4):
+    hamster.note("G4", 0.5)
+hamster.note("E4", 0.5)
